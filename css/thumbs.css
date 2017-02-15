@@ -1,0 +1,10 @@
+.thumbs {
+	width: 120px;
+	height: 77px;
+	display: inline-block;
+	margin: auto;
+}
+
+.thumbs--active {
+	border: 1px solid purple;
+}
