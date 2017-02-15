@@ -1,0 +1,21 @@
+#arrows {
+	color: grey;
+	height: 50px;
+	opacity: .8;
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	/*background: #000;*/
+}
+
+#arrows::before {
+	content: "";
+	background: url('') no-repeat
+	left: 0;
+}
+
+#arrows::after {
+	content: "";
+	background: url('') no-repeat
+	right: 0;
+}
